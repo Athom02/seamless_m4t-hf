@@ -5,7 +5,8 @@ import gradio as gr
 import numpy as np
 import torch
 import torchaudio
-from seamless_communication.models.inference.translator import Translator
+#from seamless_communication.models.inference.translator import Translator #old incorrect
+from seamless_communication.inference.translator import Translator #new
 
 from lang_list import (
     LANGUAGE_NAME_TO_CODE,
